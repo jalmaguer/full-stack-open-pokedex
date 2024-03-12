@@ -28,7 +28,7 @@ primary_region = 'iad'
     timeout = "5s"
     path = "/"
 
-[[deploy]]
+[deploy]
   strategy = "canary"
 
 [[vm]]
